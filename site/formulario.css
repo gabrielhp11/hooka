@@ -1,0 +1,126 @@
+/*formulário*/
+
+*{
+	margin: 5px;
+	padding: 5px;
+}
+form{
+	width: 900px;
+	margin: auto;
+}
+
+fieldset{
+	border-color: #cecece;
+	margin: 20px;
+	width: 1000px;
+}
+
+fieldset#sexo{
+	width: 150px;
+}
+
+fieldset#usuario{
+	background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-V9ACc9VBNJnXKbU8O5QBjbr1BUpOPrRWPSskmmgva7CIHe0S') no-repeat 95% 95%;
+}
+
+/*menu*/
+
+#menu ul li{
+	background-color: #eeeeee;
+	color: black;
+	float: left;
+	width: 100px;
+	height: 40px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 20px; 
+	text-decoration: none;
+	
+    
+}
+
+#menu ul li:hover{
+	
+	text-decoration: none;
+	background-color: #cecece;
+	
+}
+
+#menu ul {
+	padding: 0;
+	text-decoration: none;
+	
+}
+
+#menu ul ul{
+	display: none;
+	text-decoration: none;
+
+
+}
+
+#menu ul li:hover > ul{
+	display: block;
+	text-decoration: none;
+	background-color: #000000;
+}
+h1{
+	text-align: center;
+	font-family: Arial;
+	color: #000000;
+	text-shadow: 2px 2px 2px white;
+
+}
+body{
+    
+    height:auto;
+   
+ }
+
+ #menu ul li ul li {
+ 	text-decoration:none;
+
+ }
+
+ #linqui{
+ 	text-decoration: none;
+ 	color: #000000;
+ }
+
+#sla{
+	height: 40px;
+	font-size: 13px;
+	font-weight: 400px;
+     height: 50px;
+     position: relative;
+     padding-top: 2;
+} 
+
+#busca{
+	padding: 10px;
+	width: 50%;
+}
+
+#teste2{
+	margin: auto;
+	background-color: #eeeeee;
+	width: 100%;
+
+}
+
+#t{
+	text-align: center;
+}
+
+#i1{
+	width: 25%;
+	height: 260px;
+    border: 5px solid rgba(192,192,192,0.5);
+}
+
+#i1:hover{
+	background-color: green;
+}
+
